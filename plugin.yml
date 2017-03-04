@@ -1,0 +1,14 @@
+name: WorldTeleporter
+version: 1.0.0
+main: RTG\WorldTeleporter\Loader
+api: 2.1.0
+author: IG
+commands:
+    wtp:
+        permission: worldteleporter.command
+        description: "Teleport your players to a different world!"
+permissions:
+    worldteleporter.command:
+        default: op
+    worldteleporter.create:
+        default: op
